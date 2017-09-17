@@ -19,12 +19,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        PlantDefinition plantDefinition = ((App)getApplication()).getDaoSession().getPlantDefinitionDao().load(1L);
-
-        if (plantDefinition != null) {
-            Log.d(TAG, plantDefinition.getPlantDefinition());
-        }
+//
+//        PlantDefinition plantDefinition = ((App)getApplication()).getDaoSession().getPlantDefinitionDao().load(1L);
+//
+//        if (plantDefinition != null) {
+//            Log.d(TAG, plantDefinition.getPlantDefinition());
+//        }
 
         FragmentManager fm = getSupportFragmentManager();
 
